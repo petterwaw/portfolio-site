@@ -1,0 +1,23 @@
+body {
+  font-family: 'JetBrains Mono', monospace;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FDFDFD;
+  color: #1a1a1a;
+  cursor: none;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, section, img {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  
+}

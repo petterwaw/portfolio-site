@@ -1,0 +1,35 @@
+.page-overlay {
+  position: fixed;
+  inset: 0;
+  background: white;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.page-overlay.forward.entering {
+  transform: translateX(100%);
+}
+
+.page-overlay.forward.center {
+  transform: translateX(0);
+}
+
+.page-overlay.forward.exiting {
+  transform: translateX(-100%);
+}
+
+.page-overlay.backward.entering {
+  transform: translateX(-100%);
+}
+
+.page-overlay.backward.center {
+  transform: translateX(0);
+}
+
+.page-overlay.backward.exiting {
+  transform: translateX(100%);
+}

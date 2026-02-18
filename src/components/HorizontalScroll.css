@@ -1,0 +1,25 @@
+.horizontal-scroll {
+  position: relative;
+  height: 300vh;
+  max-width: 100vw;
+  scroll-snap-align: start;
+}
+.scroll-content {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden; 
+  background-color: aliceblue;
+}
+
+.scroll-item {
+    display: flex;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    gap: 1rem;
+    margin-left: 20vw;
+    border: 1px solid green;
+    scroll-snap-type: y mandatory;
+}
