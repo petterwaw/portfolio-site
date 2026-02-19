@@ -11,7 +11,7 @@ export default function HorizontalScroll() {
         target: targetRef,
     });
 
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"])
+    const x = useTransform(scrollYProgress, [0, 1], ["3%", "-86%"])
 
     return (
         <section className="horizontal-scroll" ref={targetRef}>
@@ -21,7 +21,19 @@ export default function HorizontalScroll() {
                         <Card key={project.id} project={project} />
                     ))}
                 </motion.div>
+                
             </motion.div>
+            <div className="snap-stack">
+                <div className="scroll-snap">sdsd</div>
+                <div className="scroll-snap">sdsd</div>
+                <div className="scroll-snap">sdsd</div>
+                <div className="scroll-snap">sdsd</div>
+                <div className="scroll-snap">sdsd</div>
+                <div className="scroll-snap">sdsd</div>
+                <div className="scroll-snap">sdsd</div>
+                <div className="scroll-snap">sdsd</div>
+                <div className="scroll-snap">sdsd</div>
+            </div>
         </section>
     )
 }
