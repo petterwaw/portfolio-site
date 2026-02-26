@@ -1,9 +1,9 @@
 .horizontal-scroll {
   position: relative;
-  height: 500vh;
+  height: 250vh;
   max-width: 100vw;
   scroll-snap-align: start;
-  --snap-steps: 8;
+  --snap-steps: 4;
   --scroll-range: calc(100% - 100vh);
   --snap-step: calc(var(--scroll-range) / var(--snap-steps));
 }
@@ -14,7 +14,6 @@
   display: flex;
   align-items: center;
   overflow: hidden; 
-  background-color: aliceblue;
 }
 
 .scroll-item {
@@ -22,14 +21,14 @@
     flex: 0 0 auto;
     scroll-snap-align: center;
     gap: 1rem;
-    border: 1px solid green;
+    align-items: center;
 }
 
 .scroll-snap {
     position: absolute;
     top: 0;
     left: 0;
-  height: var(--snap-step);
+    height: var(--snap-step);
     width: 100vw;
     background: repeating-linear-gradient(
     135deg,
@@ -66,24 +65,4 @@
 
 .snap-stack .scroll-snap:nth-child(4) {
   top: calc(3 * var(--snap-step));
-}
-
-.snap-stack .scroll-snap:nth-child(5) {
-  top: calc(4 * var(--snap-step));
-}
-
-.snap-stack .scroll-snap:nth-child(6) {
-  top: calc(5 * var(--snap-step));
-}
-
-.snap-stack .scroll-snap:nth-child(7) {
-  top: calc(6 * var(--snap-step));
-}
-
-.snap-stack .scroll-snap:nth-child(8) {
-  top: calc(7 * var(--snap-step));
-}
-
-.snap-stack .scroll-snap:nth-child(9) {
-  top: calc(8 * var(--snap-step));
 }
