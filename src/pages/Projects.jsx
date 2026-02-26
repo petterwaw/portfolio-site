@@ -27,14 +27,12 @@ export default function Projects() {
       const scrollY = window.scrollY;
       const localScroll = scrollY - sectionTop;
 
-      // down: anywhere above section → snap to section start
       if (e.deltaY > 0 && !snappingDown.current && scrollY < sectionTop - 5) {
         e.preventDefault();
         doSnap(sectionTop, snappingDown);
         return;
       }
 
-      // up: near the start of section (even mid-animation) → snap to intro
       if (e.deltaY < 0 && !snappingUp.current) {
         const nearStart = scrollY >= sectionTop - window.innerHeight * 0.5 && scrollY <= sectionTop + 50;
         if (nearStart) {
@@ -52,7 +50,10 @@ export default function Projects() {
     <>
       <section className='projects-intro' ref={introRef}>
         <h1 className='projects-title'>Projects</h1>
-        <p className='projects-description'>A collection of my projects showcasing my skills and creativity. Each project is a unique expression of my passion for coding and design. Explore the diverse range of projects I've worked on, from web applications to interactive experiences. Each project reflects my dedication to learning and growth in the world of technology.</p>
+        <p className='projects-description'>This page showcases selected projects 
+          I’ve built while learning front-end development. Each project focuses on different 
+          concepts such as API integration, state management, or dynamic UI updates. 
+          They reflect my progress and practical approach to building real applications. <br /><br/> (scroll down please :D)</p>
       </section>
       <div ref={scrollRef}>
         <HorizontalScroll />
