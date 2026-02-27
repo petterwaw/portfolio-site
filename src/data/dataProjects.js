@@ -14,7 +14,7 @@ export const projects = [
         Built to practice DOM manipulation, user interactions, and working with application state.`,
         techStack: [faJs, faHtml5, faCss3Alt],
         gitLink: "https://github.com/petterwaw/ordering_app",
-        pageLink: "https://superb-narwhal-551185.netlify.app"
+        pageLink: "https://petterwaw.github.io/ordering_app/"
     },
     {
         id: 2,
@@ -29,7 +29,7 @@ export const projects = [
             processing JSON data, and dynamically updating the UI based on API responses.`,
         techStack: [faJs, faHtml5, faCss3Alt],
         gitLink: "https://github.com/petterwaw/color-scheme-generator",
-        pageLink: "https://aesthetic-pasca-1efee9.netlify.app"
+        pageLink: "https://petterwaw.github.io/color-scheme-generator/"
     },
     {
         id: 3,
@@ -44,7 +44,7 @@ export const projects = [
             and managed persistent data using local storage.`,
         techStack: [faJs, faHtml5, faCss3Alt],
         gitLink: "https://github.com/petterwaw/films-watchlist",
-        pageLink: "https://peaceful-biscotti-de0490.netlify.app"
+        pageLink: "https://petterwaw.github.io/films-watchlist/"
     },
     {
         id: 4,
@@ -59,6 +59,6 @@ export const projects = [
             and managing application state to keep the UI synchronized with user actions.`,
         techStack: [faReact, faJs, faHtml5, faCss3Alt],
         gitLink: "https://github.com/petterwaw/quiz-app-in-react",
-        pageLink: "https://dulcet-lolly-78bb72.netlify.app"
+        pageLink: "https://petterwaw.github.io/quiz-app-in-react/"
     },
 ];

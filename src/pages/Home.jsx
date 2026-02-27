@@ -34,7 +34,13 @@ export default function Home({ handleTransition }) {
     }, [activeIndex])
 
     return (
+      
     <div className="home">
+
+      <div className="home-signature">
+        Piotr Wawrzkowicz
+      </div>
+
       <nav>
         {links.map((link, index) => (
           <div
@@ -51,9 +57,7 @@ export default function Home({ handleTransition }) {
         ))}
       </nav>
 
-      <div className="home-signature">
-        Piotr Wawrzkowicz
-      </div>
+      
     </div>
   )
 }

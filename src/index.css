@@ -5,7 +5,6 @@ body {
   height: 100vh;
   background-color: #FDFDFD;
   color: #1a1a1a;
-  cursor: none;
   overflow-x: hidden;
 }
 
@@ -17,13 +16,17 @@ h1, h2, h3, h4, h5, h6, section, img {
   box-sizing: border-box;
 }
 
+@media (pointer: fine) {
+  body, a, a:hover {
+    cursor: none;
+  }
+}
+
 a {
   color: #F472B6;
-  cursor: none;
 }
 
 a:hover {
   color: #1a1a1a;
-  cursor: none;
 }
 

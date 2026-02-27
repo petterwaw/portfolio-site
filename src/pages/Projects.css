@@ -21,3 +21,11 @@
     border: 1px solid #1a1a1a;
     margin: 2rem 0 1rem;
 }
+
+@media (max-width: 768px) { 
+    .projects-intro {
+        width: 90vw;
+        height: fit-content;
+        padding-top: 7rem;
+    }
+}

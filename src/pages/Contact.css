@@ -41,3 +41,13 @@
     color: #F472B6;
     cursor: none;
 }
+
+@media (max-width: 768px) { 
+    .contact-wrapper {
+        padding: 2rem;
+    }
+    .contact-info {
+        margin-top: 5rem;
+        width: 100%;
+    }
+}
