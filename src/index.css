@@ -19,5 +19,11 @@ h1, h2, h3, h4, h5, h6, section, img {
 
 a {
   color: #F472B6;
+  cursor: none;
+}
+
+a:hover {
+  color: #1a1a1a;
+  cursor: none;
 }
 

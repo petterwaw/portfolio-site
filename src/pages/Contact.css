@@ -28,6 +28,16 @@
 
 .contact-info > hr {
     width: 100%;
-    margin: 4rem auto 1rem;
+    margin: 2rem auto 1rem;
     border-top: 1px solid #1a1a1a;
+}
+
+.contact-item > a {
+    color: #1a1a1a;
+    cursor: none;
+}
+
+.contact-item > a:hover {
+    color: #F472B6;
+    cursor: none;
 }

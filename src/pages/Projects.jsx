@@ -49,11 +49,14 @@ export default function Projects() {
   return (
     <>
       <section className='projects-intro' ref={introRef}>
-        <h1 className='projects-title'>Projects</h1>
+        <h1 className='projects-title'>My <span className="pink-bg">Projects</span></h1>
+        <hr />
         <p className='projects-description'>This page showcases selected projects 
           I’ve built while learning front-end development. Each project focuses on different 
           concepts such as API integration, state management, or dynamic UI updates. 
-          They reflect my progress and practical approach to building real applications. <br /><br/> (scroll down please :D)</p>
+          They reflect my progress and practical approach to building real applications. 
+          I am constantly learning and improving my skills so my projects will continue to evolve. 
+          Hope you enjoy exploring them! <br /><br/> (scroll down please :D)</p>
       </section>
       <div ref={scrollRef}>
         <HorizontalScroll />

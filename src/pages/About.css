@@ -48,6 +48,10 @@
     text-align: justify;
 }
 
+.small-h1 {
+    font-size: 2rem;
+}
+
 @media (max-width: 1024px) { 
     .about-wrapper {
         padding: 2rem;

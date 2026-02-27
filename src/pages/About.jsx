@@ -7,7 +7,7 @@ export default function About() {
     <div className='about-wrapper'>
       <section className='about'>
         <h1>
-          Hi, my name is <br /><span className='pink-bg'>Piotr Wawrzkowicz</span>
+          <span className='small-h1'>Hi, my name is </span><br /><span className='pink-bg'>Piotr Wawrzkowicz</span>
         </h1>
         <hr />
         <p>

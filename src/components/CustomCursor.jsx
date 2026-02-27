@@ -3,6 +3,10 @@ import { useEffect, useRef } from 'react'
 
 export default function CustomCursor() {
 
+    const isTouchDevice = window.matchMedia('(pointer: coarse)').matches
+    if (isTouchDevice) return null
+
+
     const coords = useRef({ x: 0, y: 0 })
     const circlesRef = useRef([])
 

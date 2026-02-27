@@ -1,6 +1,6 @@
 import './Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAt, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faAt, faPhone, faEarthAmericas } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -27,6 +27,10 @@ export default function Contact() {
           <div className="contact-item">
             <FontAwesomeIcon icon={faPhone} />
             <a href="tel:+48884777011">+48 884-777-011</a>
+          </div>
+          <div className="contact-item">
+            <FontAwesomeIcon icon={faEarthAmericas} />
+            <a href="https://www.google.com/maps/place/Gdańsk,+Poland" target="_blank" rel="noopener noreferrer">Located, Poland, Gdańsk</a>
           </div>
         </div>
       </section>
