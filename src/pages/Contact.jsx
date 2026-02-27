@@ -18,7 +18,7 @@ export default function Contact() {
           </div>
           <div className="contact-item">
             <FontAwesomeIcon className="contact-icon" icon={faGithub} />
-            <a href="https://github.com/piotr-wawrzkowicz" target="_blank" rel="noopener noreferrer">GitHub/piotr-wawrzkowicz</a>
+            <a href="https://github.com/petterwaw" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
           <div className="contact-item">
             <FontAwesomeIcon icon={faLinkedin} />
